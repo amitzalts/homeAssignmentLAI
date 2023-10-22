@@ -55,8 +55,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final double leftMenuWidth = isMainMenuOpen ? 281 : 100;
-    final double toggleMainMenuLeftPosition = isMainMenuOpen ? 265 : 84;
+    final double leftMenuWidth = isMainMenuOpen ? 281 : 115;
+    final double toggleMainMenuLeftPosition = isMainMenuOpen ? 265 : 98;
     
 
     return SingleChildScrollView(
